@@ -1,0 +1,388 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	.navbar {
+		padding: 20px 0 !important;
+		position: fixed;
+	}
+	
+	input {
+		background: no-repeat;
+		padding: 10px 41px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: 300;
+		font-family: 'Roboto', sans-serif;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+	.navbar {
+		padding: 20px 0 !important;
+		position: fixed;
+	}
+
+	button,
+	input,
+	optgroup,
+	select,
+	textarea {
+		border: none !important;
+	}
+
+	.navbar-collapse {
+		background: rgba(187, 187, 187, 0.91);
+		text-align: center;
+		margin-top: 21px;
+	}
+
+	.slick-dots li button {
+		border: 1px solid #fff !important;
+	}
+
+	.slick-dots li.slick-active button {
+		background: #00e0d0;
+	}
+
+	.our-story .simple-story .story-text {
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.work-btns button {
+		padding: 14px 37px !important;
+		margin: 0px 0px;
+	}
+
+	.work-btns {
+		padding: 37px;
+	}
+
+	.work-btns button {
+		font-size: 15px;
+	}
+
+	.slid-img {
+		padding-top: 47px;
+	}
+
+	.slide-ttt {
+		padding-top: 11px;
+		padding-bottom: 113px;
+	}
+		.card .singl-img {
+	margin-bottom: 15px;
+}
+		.aa {
+		border: 1px solid #444 !important;
+	}
+
+	.msge textarea {
+		border: 1px solid #444 !important;
+	}
+
+	.send button {
+		border: solid 1px #444 !important;
+	}
+
+	.img-gal {
+		text-align: center;
+	}
+
+	.foo-touch {
+		text-align: center;
+	}
+
+	.foo-touch {
+		padding-top: 0px;
+	}
+
+	.copy-right-area {
+		padding: 33px 0;
+	}
+}
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar {
+		padding: 20px 0 !important;
+		position: fixed;
+	}
+
+	button,
+	input,
+	optgroup,
+	select,
+	textarea {
+		border: none !important;
+	}
+
+	.navbar-collapse {
+		background: rgba(187, 187, 187, 0.91);
+		text-align: center;
+		margin-top: 21px;
+	}
+
+	.slick-dots li button {
+
+		border: 1px solid #fff !important;
+	}
+
+	.our-story .simple-story .story-text {
+		text-align: center;
+		padding-top: 40px;
+	}
+	.simple-story .story-text p {
+
+	padding-bottom: 23px;
+}
+
+	.text-1 {
+		text-align: center;
+		padding-top: 38px;
+	}
+
+	.text-1 p {
+		padding: 0 68px;
+	}
+
+	.work-btns button {
+		padding: 14px 13px !important;
+		margin: 0px 0px;
+	}
+
+	.work-btns {
+		padding: 37px;
+	}
+
+	.work-btns button {
+		font-size: 15px;
+	}
+
+	.single_slide p {
+		font-size: 14px;
+	}
+
+	.slide-ttt {
+		padding-bottom: 120px;
+	}
+		.card .singl-img {
+	margin-bottom: 15px;
+}
+
+	.img-gal {
+		text-align: center;
+	}
+
+	.foo-touch {
+		text-align: center;
+	}
+
+	.foo-touch {
+		padding-top: 0px;
+	}
+
+	.copy-right-area {
+		padding: 33px 0;
+	}
+
+	.input-area .input-text {
+		text-align: center;
+	}
+
+	.aa {
+		border: 1px solid #444 !important;
+	}
+
+	.msge textarea {
+		border: 1px solid #444 !important;
+	}
+
+	.send button {
+		border: solid 1px #444 !important;
+	}
+
+	.tajam-area .foo-text a {
+		padding-right: 40px;
+	}
+
+	.our-text a {
+		padding-right: 0px;
+	}
+
+	.subscribe input {
+		border: 1px solid #fff !important;
+	}
+
+	.fff00 button {
+		border: 1px solid #fff !important;
+	}
+
+	.copy-right h5 {
+		padding-right: 8px;
+	}
+
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.navbar {
+		padding: 20px 0 !important;
+		position: fixed;
+	}
+
+	button,
+	input,
+	optgroup,
+	select,
+	textarea {
+		border: none !important;
+	}
+
+	.navbar-collapse {
+		background: rgba(187, 187, 187, 0.91);
+		text-align: center;
+		margin-top: 21px;
+	}
+
+	.theme-bg .text-1 {
+		padding: 156px 0;
+	}
+
+	.slick-dots li button {
+
+		border: 1px solid #fff !important;
+	}
+
+	.our-story .simple-story .story-text {
+		text-align: center;
+		padding-top: 40px;
+	}
+
+	.text-1 {
+		text-align: center;
+		padding-top: 38px;
+	}
+
+	.text-1 p {
+		padding: 0px 42px;
+	}
+
+	.expertise-area .expart-text h2 {
+		font-size: 18px;
+	}
+
+	.work-btns button {
+		padding: 14px 13px !important;
+		margin: 0px 0px;
+	}
+
+	.work-btns {
+		padding: 37px;
+	}
+
+	.work-btns button {
+		width: 100%;
+	}
+	
+
+	.single_slide p {
+		font-size: 14px;
+	}
+
+	.slid-img {
+		padding-top: 26px;
+	}
+
+	.slide-ttt {
+		padding-bottom: 100px;
+		padding-top: 12px;
+	}
+	
+	.card .singl-img {
+	margin-bottom: 15px;
+}
+
+	.img-gal {
+		text-align: center;
+	}
+
+	.foo-touch {
+		text-align: center;
+	}
+
+	.foo-touch {
+		padding-top: 0px;
+	}
+
+	.copy-right-area {
+		padding: 33px 0;
+	}
+
+	.input-area .input-text {
+		text-align: center;
+	}
+
+	.aa {
+		border: 1px solid #444 !important;
+	}
+
+	.msge textarea {
+		border: 1px solid #444 !important;
+	}
+
+	.send button {
+		border: solid 1px #444 !important;
+	}
+
+	.tajam-area {
+		padding-top: 41px;
+	}
+
+	.footer-area .tajam-area {
+		text-align: center;
+	}
+
+	.tajam-area .foo-text a {
+		padding-right: 0px;
+	}
+
+	.our-story {
+		padding: 5px 0;
+		text-align: center;
+	}
+
+	.our-text a {
+		padding-right: 0px;
+	}
+
+	.subscribe input {
+		border: 1px solid #fff !important;
+	}
+
+	.fff00 button {
+		border: 1px solid #fff !important;
+	}
+
+	.copy-right {
+		text-align: center;
+	}
+
+	.copy {
+		text-align: center;
+	}
+
+	.copy-right h5 {
+		padding-right: 8px;
+	}
+}
